@@ -29,7 +29,7 @@ def organizations(e):
     }
 
 
-selected =  document.getElementById('orgs').value #type:ignore
+selected =  document.getElementById('org').value #type:ignore
 
-    # Display in the output div
 display(orgs[selected], target="output") # type: ignore
+
